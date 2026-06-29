@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found nav2_mppi_controller: 1.1.20 (/opt/ros/humble/share/nav2_mppi_controller/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rim/critic_ws/build/our_mppi_critics
+[35m[1mConsolidate compiler generated dependencies of target our_mppi_critics[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libour_mppi_critics.so[0m
+[100%] Built target our_mppi_critics
+-- Install configuration: ""
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so
+-- Set runtime path of "/home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so" to ""
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/skid_critic.hpp
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/slope_critic.hpp
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml
+-- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/package_run_dependencies/our_mppi_critics
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/parent_prefix_path/our_mppi_critics
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.sh
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.dsv
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.sh
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.dsv
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.bash
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.sh
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.zsh
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.dsv
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.dsv
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/packages/our_mppi_critics
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/our_mppi_critics
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig.cmake
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig-version.cmake
+-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.xml

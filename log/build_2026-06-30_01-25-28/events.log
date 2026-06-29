@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (our_mppi_critics) JobQueued: {'identifier': 'our_mppi_critics', 'dependencies': OrderedDict()}
+[0.000201] (our_mppi_critics) JobStarted: {'identifier': 'our_mppi_critics'}
+[0.005359] (our_mppi_critics) JobProgress: {'identifier': 'our_mppi_critics', 'progress': 'cmake'}
+[0.005895] (our_mppi_critics) Command: {'cmd': ['/usr/bin/cmake', '/home/rim/critic_ws/src/our_mppi_critics', '-DCMAKE_INSTALL_PREFIX=/home/rim/critic_ws/install/our_mppi_critics'], 'cwd': '/home/rim/critic_ws/build/our_mppi_critics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rim'), ('OLDPWD', '/home/rim/critic_ws/src/our_mppi_critics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rim/mppi_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rim/miniconda3/bin:/home/rim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rim-LOQ-15IRX9:@/tmp/.ICE-unix/2393,unix/rim-LOQ-15IRX9:/tmp/.ICE-unix/2393'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a6a733e_08c2_4d60_bcd8_f7d90aad63cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rim/critic_ws/build/our_mppi_critics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rim/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble')]), 'shell': False}
+[0.069161] (our_mppi_critics) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099644] (-) TimerEvent: {}
+[0.124680] (our_mppi_critics) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.129799] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.193245] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199320] (our_mppi_critics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.199564] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.199638] (-) TimerEvent: {}
+[0.199849] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.201777] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.266078] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.271797] (our_mppi_critics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.271983] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.272301] (our_mppi_critics) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.273840] (our_mppi_critics) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299844] (-) TimerEvent: {}
+[0.382944] (our_mppi_critics) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400058] (-) TimerEvent: {}
+[0.441007] (our_mppi_critics) StdoutLine: {'line': b'-- Found nav2_mppi_controller: 1.1.20 (/opt/ros/humble/share/nav2_mppi_controller/cmake)\n'}
+[0.469079] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.472064] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.477612] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.485114] (our_mppi_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.495173] (our_mppi_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500258] (-) TimerEvent: {}
+[0.522402] (our_mppi_critics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.524007] (our_mppi_critics) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599493] (our_mppi_critics) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.600333] (-) TimerEvent: {}
+[0.629108] (our_mppi_critics) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.667755] (our_mppi_critics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.673336] (our_mppi_critics) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700435] (-) TimerEvent: {}
+[0.737024] (our_mppi_critics) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.737412] (our_mppi_critics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800644] (-) TimerEvent: {}
+[0.803328] (our_mppi_critics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.804244] (our_mppi_critics) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900849] (-) TimerEvent: {}
+[1.001192] (-) TimerEvent: {}
+[1.024385] (our_mppi_critics) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.024573] (our_mppi_critics) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.101392] (-) TimerEvent: {}
+[1.141197] (our_mppi_critics) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.167087] (our_mppi_critics) StdoutLine: {'line': b'-- Generating done\n'}
+[1.171162] (our_mppi_critics) StdoutLine: {'line': b'-- Build files have been written to: /home/rim/critic_ws/build/our_mppi_critics\n'}
+[1.178763] (our_mppi_critics) CommandEnded: {'returncode': 0}
+[1.180795] (our_mppi_critics) JobProgress: {'identifier': 'our_mppi_critics', 'progress': 'build'}
+[1.180868] (our_mppi_critics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rim/critic_ws/build/our_mppi_critics', '--', '-j28', '-l28'], 'cwd': '/home/rim/critic_ws/build/our_mppi_critics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rim'), ('OLDPWD', '/home/rim/critic_ws/src/our_mppi_critics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rim/mppi_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rim/miniconda3/bin:/home/rim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rim-LOQ-15IRX9:@/tmp/.ICE-unix/2393,unix/rim-LOQ-15IRX9:/tmp/.ICE-unix/2393'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a6a733e_08c2_4d60_bcd8_f7d90aad63cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rim/critic_ws/build/our_mppi_critics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rim/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble')]), 'shell': False}
+[1.201474] (-) TimerEvent: {}
+[1.229950] (our_mppi_critics) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o\x1b[0m\n'}
+[1.230706] (our_mppi_critics) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o\x1b[0m\n'}
+[1.301653] (-) TimerEvent: {}
+[1.401954] (-) TimerEvent: {}
+[1.502277] (-) TimerEvent: {}
+[1.602611] (-) TimerEvent: {}
+[1.702920] (-) TimerEvent: {}
+[1.803273] (-) TimerEvent: {}
+[1.903592] (-) TimerEvent: {}
+[2.003908] (-) TimerEvent: {}
+[2.104153] (-) TimerEvent: {}
+[2.204396] (-) TimerEvent: {}
+[2.304678] (-) TimerEvent: {}
+[2.404966] (-) TimerEvent: {}
+[2.505300] (-) TimerEvent: {}
+[2.605621] (-) TimerEvent: {}
+[2.705945] (-) TimerEvent: {}
+[2.806280] (-) TimerEvent: {}
+[2.906605] (-) TimerEvent: {}
+[3.006936] (-) TimerEvent: {}
+[3.107295] (-) TimerEvent: {}
+[3.207679] (-) TimerEvent: {}
+[3.307904] (-) TimerEvent: {}
+[3.408156] (-) TimerEvent: {}
+[3.508477] (-) TimerEvent: {}
+[3.579737] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void our_mppi_critics::SkidCritic::score(mppi::CriticData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.579893] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:26:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxt::xtensor<float, 2>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class xt::xtensor_container<xt::uvector<float, std::allocator<float> >, 2, xt::layout_type::row_major, xt::xtensor_expression_tag>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Krows\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.579934] (our_mppi_critics) StderrLine: {'line': b'   26 |   const size_t batch_size = data.trajectories.x.\x1b[01;31m\x1b[Krows\x1b[m\x1b[K();\n'}
+[3.579964] (our_mppi_critics) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.579991] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:27:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxt::xtensor<float, 2>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class xt::xtensor_container<xt::uvector<float, std::allocator<float> >, 2, xt::layout_type::row_major, xt::xtensor_expression_tag>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcols\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.580033] (our_mppi_critics) StderrLine: {'line': b'   27 |   const size_t time_steps = data.trajectories.x.\x1b[01;31m\x1b[Kcols\x1b[m\x1b[K();\n'}
+[3.580062] (our_mppi_critics) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.580089] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.580116] (our_mppi_critics) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::ArrayXf cost(batch_size);\n'}
+[3.580142] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.582740] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void our_mppi_critics::SlopeCritic::score(mppi::CriticData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.582819] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:28:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct mppi::models::State\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpitch\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.582856] (our_mppi_critics) StderrLine: {'line': b'   28 |   const float pitch_deg = std::abs(data.state.\x1b[01;31m\x1b[Kpitch\x1b[m\x1b[K) * 180.0f / M_PI;\n'}
+[3.582891] (our_mppi_critics) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.582918] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:32:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxt::xtensor<float, 2>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class xt::xtensor_container<xt::uvector<float, std::allocator<float> >, 2, xt::layout_type::row_major, xt::xtensor_expression_tag>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Krows\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.582947] (our_mppi_critics) StderrLine: {'line': b'   32 |   const size_t batch_size = data.trajectories.x.\x1b[01;31m\x1b[Krows\x1b[m\x1b[K();\n'}
+[3.582974] (our_mppi_critics) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.582998] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:33:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.583031] (our_mppi_critics) StderrLine: {'line': b'   33 |   \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::ArrayXf cost(batch_size);\n'}
+[3.583057] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.583702] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:30:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcosl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.583776] (our_mppi_critics) StderrLine: {'line': b'   30 |   \x1b[01;31m\x1b[Kcost\x1b[m\x1b[K.setZero();\n'}
+[3.583811] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.583838] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcosl\x1b[m\x1b[K\n'}
+[3.587245] (our_mppi_critics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:34:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcosl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.587323] (our_mppi_critics) StderrLine: {'line': b'   34 |   \x1b[01;31m\x1b[Kcost\x1b[m\x1b[K.setZero();\n'}
+[3.587358] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.587385] (our_mppi_critics) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcosl\x1b[m\x1b[K\n'}
+[3.608649] (-) TimerEvent: {}
+[3.708930] (-) TimerEvent: {}
+[3.809263] (-) TimerEvent: {}
+[3.909521] (-) TimerEvent: {}
+[4.009822] (-) TimerEvent: {}
+[4.110130] (-) TimerEvent: {}
+[4.210356] (-) TimerEvent: {}
+[4.297510] (our_mppi_critics) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/our_mppi_critics.dir/build.make:90: CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o] Error 1\n'}
+[4.297643] (our_mppi_critics) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.298167] (our_mppi_critics) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/our_mppi_critics.dir/build.make:76: CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o] Error 1\n'}
+[4.298432] (our_mppi_critics) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/our_mppi_critics.dir/all] Error 2\n'}
+[4.298647] (our_mppi_critics) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.300504] (our_mppi_critics) CommandEnded: {'returncode': 2}
+[4.305507] (our_mppi_critics) JobEnded: {'identifier': 'our_mppi_critics', 'rc': 2}
+[4.310420] (-) TimerEvent: {}
+[4.315776] (-) EventReactorShutdown: {}

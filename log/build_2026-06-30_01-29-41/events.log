@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (our_mppi_critics) JobQueued: {'identifier': 'our_mppi_critics', 'dependencies': OrderedDict()}
+[0.000417] (our_mppi_critics) JobStarted: {'identifier': 'our_mppi_critics'}
+[0.050384] (our_mppi_critics) JobProgress: {'identifier': 'our_mppi_critics', 'progress': 'cmake'}
+[0.052192] (our_mppi_critics) JobProgress: {'identifier': 'our_mppi_critics', 'progress': 'build'}
+[0.052396] (our_mppi_critics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rim/critic_ws/build/our_mppi_critics', '--', '-j28', '-l28'], 'cwd': '/home/rim/critic_ws/build/our_mppi_critics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rim'), ('OLDPWD', '/home/rim/critic_ws/src/our_mppi_critics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rim/mppi_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rim/miniconda3/bin:/home/rim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rim-LOQ-15IRX9:@/tmp/.ICE-unix/2393,unix/rim-LOQ-15IRX9:/tmp/.ICE-unix/2393'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a6a733e_08c2_4d60_bcd8_f7d90aad63cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rim/critic_ws/build/our_mppi_critics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rim/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble')]), 'shell': False}
+[0.082794] (our_mppi_critics) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099867] (-) TimerEvent: {}
+[0.176097] (our_mppi_critics) StdoutLine: {'line': b'-- Found nav2_mppi_controller: 1.1.20 (/opt/ros/humble/share/nav2_mppi_controller/cmake)\n'}
+[0.195076] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.196765] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.200059] (-) TimerEvent: {}
+[0.201010] (our_mppi_critics) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.207016] (our_mppi_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.214823] (our_mppi_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.235892] (our_mppi_critics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.236833] (our_mppi_critics) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300235] (-) TimerEvent: {}
+[0.315866] (our_mppi_critics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400460] (-) TimerEvent: {}
+[0.500903] (-) TimerEvent: {}
+[0.506196] (our_mppi_critics) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.601123] (-) TimerEvent: {}
+[0.616559] (our_mppi_critics) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.642312] (our_mppi_critics) StdoutLine: {'line': b'-- Generating done\n'}
+[0.646425] (our_mppi_critics) StdoutLine: {'line': b'-- Build files have been written to: /home/rim/critic_ws/build/our_mppi_critics\n'}
+[0.667664] (our_mppi_critics) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target our_mppi_critics\x1b[0m\n'}
+[0.686320] (our_mppi_critics) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o\x1b[0m\n'}
+[0.686792] (our_mppi_critics) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o\x1b[0m\n'}
+[0.701332] (-) TimerEvent: {}
+[0.801723] (-) TimerEvent: {}
+[0.902145] (-) TimerEvent: {}
+[1.002539] (-) TimerEvent: {}
+[1.102945] (-) TimerEvent: {}
+[1.203342] (-) TimerEvent: {}
+[1.303755] (-) TimerEvent: {}
+[1.404157] (-) TimerEvent: {}
+[1.504570] (-) TimerEvent: {}
+[1.604991] (-) TimerEvent: {}
+[1.705396] (-) TimerEvent: {}
+[1.805838] (-) TimerEvent: {}
+[1.906234] (-) TimerEvent: {}
+[2.006643] (-) TimerEvent: {}
+[2.107079] (-) TimerEvent: {}
+[2.207480] (-) TimerEvent: {}
+[2.307795] (-) TimerEvent: {}
+[2.408084] (-) TimerEvent: {}
+[2.508408] (-) TimerEvent: {}
+[2.608695] (-) TimerEvent: {}
+[2.708923] (-) TimerEvent: {}
+[2.809231] (-) TimerEvent: {}
+[2.909562] (-) TimerEvent: {}
+[3.009789] (-) TimerEvent: {}
+[3.110041] (-) TimerEvent: {}
+[3.210352] (-) TimerEvent: {}
+[3.310686] (-) TimerEvent: {}
+[3.410916] (-) TimerEvent: {}
+[3.511227] (-) TimerEvent: {}
+[3.611531] (-) TimerEvent: {}
+[3.711764] (-) TimerEvent: {}
+[3.812018] (-) TimerEvent: {}
+[3.912316] (-) TimerEvent: {}
+[4.012640] (-) TimerEvent: {}
+[4.112941] (-) TimerEvent: {}
+[4.213311] (-) TimerEvent: {}
+[4.313651] (-) TimerEvent: {}
+[4.414006] (-) TimerEvent: {}
+[4.514362] (-) TimerEvent: {}
+[4.614727] (-) TimerEvent: {}
+[4.715079] (-) TimerEvent: {}
+[4.815431] (-) TimerEvent: {}
+[4.915786] (-) TimerEvent: {}
+[5.016145] (-) TimerEvent: {}
+[5.116504] (-) TimerEvent: {}
+[5.216851] (-) TimerEvent: {}
+[5.317191] (-) TimerEvent: {}
+[5.417728] (-) TimerEvent: {}
+[5.518123] (-) TimerEvent: {}
+[5.618453] (-) TimerEvent: {}
+[5.718804] (-) TimerEvent: {}
+[5.819115] (-) TimerEvent: {}
+[5.919457] (-) TimerEvent: {}
+[6.019847] (-) TimerEvent: {}
+[6.120204] (-) TimerEvent: {}
+[6.220591] (-) TimerEvent: {}
+[6.320972] (-) TimerEvent: {}
+[6.421320] (-) TimerEvent: {}
+[6.521680] (-) TimerEvent: {}
+[6.622052] (-) TimerEvent: {}
+[6.722387] (-) TimerEvent: {}
+[6.822741] (-) TimerEvent: {}
+[6.923118] (-) TimerEvent: {}
+[7.023478] (-) TimerEvent: {}
+[7.123874] (-) TimerEvent: {}
+[7.224149] (-) TimerEvent: {}
+[7.324473] (-) TimerEvent: {}
+[7.424827] (-) TimerEvent: {}
+[7.525183] (-) TimerEvent: {}
+[7.550930] (our_mppi_critics) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libour_mppi_critics.so\x1b[0m\n'}
+[7.625377] (-) TimerEvent: {}
+[7.725773] (-) TimerEvent: {}
+[7.826158] (-) TimerEvent: {}
+[7.926520] (-) TimerEvent: {}
+[8.026926] (-) TimerEvent: {}
+[8.127359] (-) TimerEvent: {}
+[8.132851] (our_mppi_critics) StdoutLine: {'line': b'[100%] Built target our_mppi_critics\n'}
+[8.143019] (our_mppi_critics) CommandEnded: {'returncode': 0}
+[8.143476] (our_mppi_critics) JobProgress: {'identifier': 'our_mppi_critics', 'progress': 'install'}
+[8.151268] (our_mppi_critics) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rim/critic_ws/build/our_mppi_critics'], 'cwd': '/home/rim/critic_ws/build/our_mppi_critics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rim'), ('OLDPWD', '/home/rim/critic_ws/src/our_mppi_critics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rim/mppi_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rim/miniconda3/bin:/home/rim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rim-LOQ-15IRX9:@/tmp/.ICE-unix/2393,unix/rim-LOQ-15IRX9:/tmp/.ICE-unix/2393'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a6a733e_08c2_4d60_bcd8_f7d90aad63cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rim/critic_ws/build/our_mppi_critics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rim/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble')]), 'shell': False}
+[8.157201] (our_mppi_critics) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.157321] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so\n'}
+[8.160934] (our_mppi_critics) StdoutLine: {'line': b'-- Set runtime path of "/home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so" to ""\n'}
+[8.161024] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include\n'}
+[8.161217] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics\n'}
+[8.161308] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/skid_critic.hpp\n'}
+[8.161348] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/slope_critic.hpp\n'}
+[8.161381] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml\n'}
+[8.161412] (our_mppi_critics) StdoutLine: {'line': b'-- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml\n'}
+[8.161442] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/package_run_dependencies/our_mppi_critics\n'}
+[8.161473] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/parent_prefix_path/our_mppi_critics\n'}
+[8.161522] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.sh\n'}
+[8.161559] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.dsv\n'}
+[8.161601] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.sh\n'}
+[8.161631] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.dsv\n'}
+[8.161660] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.bash\n'}
+[8.161690] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.sh\n'}
+[8.161742] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.zsh\n'}
+[8.161788] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.dsv\n'}
+[8.161817] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.dsv\n'}
+[8.161847] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/packages/our_mppi_critics\n'}
+[8.161894] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/our_mppi_critics\n'}
+[8.161955] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig.cmake\n'}
+[8.162009] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig-version.cmake\n'}
+[8.162037] (our_mppi_critics) StdoutLine: {'line': b'-- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.xml\n'}
+[8.163438] (our_mppi_critics) CommandEnded: {'returncode': 0}
+[8.174285] (our_mppi_critics) JobEnded: {'identifier': 'our_mppi_critics', 'rc': 0}
+[8.174794] (-) EventReactorShutdown: {}

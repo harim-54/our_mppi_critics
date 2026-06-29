@@ -1,0 +1,4 @@
+source;share/our_mppi_critics/local_setup.bash
+source;share/our_mppi_critics/local_setup.dsv
+source;share/our_mppi_critics/local_setup.sh
+source;share/our_mppi_critics/local_setup.zsh
