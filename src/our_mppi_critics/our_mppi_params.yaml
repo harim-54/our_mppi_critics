@@ -1,0 +1,101 @@
+controller_server:
+  ros__parameters:
+    controller_plugins: ["FollowPath"]
+
+    FollowPath:
+      plugin: "nav2_mppi_controller::MPPIController"
+      
+      # 시간 설정
+      time_steps: 56
+      model_dt: 0.05
+      model_delay_vx: 0.0
+      model_delay_wz: 0.0
+      
+      # 샘플링 설정
+      batch_size: 2000
+      open_loop: false
+      iteration_count: 1
+      
+      # 가속도 제한
+      ax_max: 2.0
+      ax_min: -2.0
+      az_max: 2.0
+      
+      # 속도 노이즈
+      vx_std: 0.2
+      wz_std: 0.4
+      
+      # 속도 제한
+      vx_max: 0.5
+      vx_min: -0.3
+      wz_max: 1.0
+      
+      # MPPI 파라미터
+      temperature: 0.3
+      gamma: 0.015
+      visualize: true
+      regenerate_noises: true
+
+      # 무한궤도 Skid Steering 모델
+      motion_model: "skid_steering"
+      skid_steering:
+        plugin: "mppi::SkidSteeringMotionModel"
+        track_width: 0.5  # 실측 후 변경
+
+      # critics 목록 (우리 critic 추가)
+      critics:
+        [
+          "ConstraintCritic",
+          "PathAlignCritic",
+          "PathFollowCritic",
+          "PathAngleCritic",
+          "PreferForwardCritic",
+          "SkidCritic",
+          "SlopeCritic",
+        ]
+
+      # 기존 critic 설정
+      ConstraintCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 4.0
+
+      PathAlignCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 14.0
+        max_path_occupancy_ratio: 0.05
+        trajectory_point_step: 4
+        threshold_to_consider: 0.5
+        offset_from_furthest: 20
+
+      PathFollowCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+
+      PathAngleCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 2.0
+        threshold_to_consider: 0.5
+
+      PreferForwardCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        threshold_to_consider: 0.5
+
+      # 우리 커스텀 critic 설정
+      SkidCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 10.0
+        track_width: 0.5  # 실측 후 변경
+
+      SlopeCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        max_slope_deg: 30.0
+        critical_slope_deg: 25.0
