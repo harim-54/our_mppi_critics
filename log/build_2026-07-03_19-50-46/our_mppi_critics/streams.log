@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/rim/critic_ws/build/our_mppi_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rim/critic_ws/build/our_mppi_critics -- -j28 -l28
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target our_mppi_critics[0m
+[0.081s] [ 33%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o[0m
+[3.621s] [ 66%] [32m[1mLinking CXX shared library libour_mppi_critics.so[0m
+[4.163s] [100%] Built target our_mppi_critics
+[4.173s] Invoked command in '/home/rim/critic_ws/build/our_mppi_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rim/critic_ws/build/our_mppi_critics -- -j28 -l28
+[4.184s] Invoking command in '/home/rim/critic_ws/build/our_mppi_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rim/critic_ws/build/our_mppi_critics
+[4.195s] -- Install configuration: ""
+[4.196s] -- Installing: /home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so
+[4.202s] -- Set runtime path of "/home/rim/critic_ws/install/our_mppi_critics/lib/libour_mppi_critics.so" to ""
+[4.202s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/include
+[4.202s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics
+[4.202s] -- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/skid_critic.hpp
+[4.203s] -- Installing: /home/rim/critic_ws/install/our_mppi_critics/include/our_mppi_critics/slope_critic.hpp
+[4.203s] -- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/critics.xml
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/package_run_dependencies/our_mppi_critics
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/parent_prefix_path/our_mppi_critics
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.sh
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/ament_prefix_path.dsv
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.sh
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/environment/path.dsv
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.bash
+[4.203s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.sh
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.zsh
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/local_setup.dsv
+[4.204s] -- Installing: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.dsv
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/packages/our_mppi_critics
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/our_mppi_critics
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig.cmake
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/cmake/our_mppi_criticsConfig-version.cmake
+[4.204s] -- Up-to-date: /home/rim/critic_ws/install/our_mppi_critics/share/our_mppi_critics/package.xml
+[4.205s] Invoked command in '/home/rim/critic_ws/build/our_mppi_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rim/critic_ws/build/our_mppi_critics

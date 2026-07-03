@@ -1,1 +1,1 @@
-/home/rim/mppi_ws/install/nav2_ros_common:/opt/ros/humble
+/home/rim/robot_ws/install/robot_description:/home/rim/robot_ws/install/robot_bringup:/home/rim/can_ws/install/our_can_driver:/home/rim/critic_ws/install/our_mppi_critics:/opt/ros/humble

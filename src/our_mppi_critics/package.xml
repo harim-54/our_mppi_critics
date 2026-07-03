@@ -16,5 +16,6 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <nav2_mppi_controller plugin="${prefix}/critics.xml"/>
   </export>
 </package>

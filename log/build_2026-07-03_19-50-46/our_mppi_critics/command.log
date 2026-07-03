@@ -1,0 +1,4 @@
+Invoking command in '/home/rim/critic_ws/build/our_mppi_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rim/critic_ws/build/our_mppi_critics -- -j28 -l28
+Invoked command in '/home/rim/critic_ws/build/our_mppi_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rim/critic_ws/build/our_mppi_critics -- -j28 -l28
+Invoking command in '/home/rim/critic_ws/build/our_mppi_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rim/critic_ws/build/our_mppi_critics
+Invoked command in '/home/rim/critic_ws/build/our_mppi_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rim/critic_ws/build/our_mppi_critics

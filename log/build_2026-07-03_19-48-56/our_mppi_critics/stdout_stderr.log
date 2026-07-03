@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target our_mppi_critics[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o[0m
+[01m[K/home/rim/critic_ws/src/our_mppi_critics/src/skid_critic.cpp:53:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   53 | [01;31m[K}[m[K  // namespace our_mppi_critics
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/our_mppi_critics.dir/build.make:76: CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/our_mppi_critics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

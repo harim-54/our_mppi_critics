@@ -1083,6 +1083,7 @@ CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o: /home/rim/critic_ws/src/o
   /usr/include/xtensor/xmasked_view.hpp \
   /usr/include/xtl/xmasked_value.hpp \
   /usr/include/xtensor/xnoalias.hpp \
+  /usr/include/xtensor/xarray.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp
 
 CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp \
@@ -2167,8 +2168,19 @@ CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/
   /usr/include/xtensor/xmasked_view.hpp \
   /usr/include/xtl/xmasked_value.hpp \
   /usr/include/xtensor/xnoalias.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /usr/include/xtensor/xarray.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp
 
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:
 
 /home/rim/critic_ws/src/our_mppi_critics/src/slope_critic.cpp:
 
@@ -2484,6 +2496,8 @@ CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/
 
 /usr/include/c++/11/list:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp:
+
 /usr/include/c++/11/bits/stl_multiset.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
@@ -2575,6 +2589,8 @@ CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -3074,6 +3090,8 @@ CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/
 
 /usr/include/c++/11/bits/stl_heap.h:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /usr/include/c++/11/bits/shared_ptr.h:
@@ -3197,6 +3215,8 @@ CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o: /home/rim/critic_ws/src/
 /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 

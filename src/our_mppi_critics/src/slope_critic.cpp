@@ -3,7 +3,7 @@
 #include "xtensor/xarray.hpp"
 #include "xtensor/xmath.hpp"
 
-namespace our_mppi_critics
+namespace mppi::critics
 {
 
 void SlopeCritic::initialize()
@@ -32,7 +32,7 @@ void SlopeCritic::initialize()
   RCLCPP_INFO(logger_, "SlopeCritic instantiated with %d power and %f weight", power_, weight_);
 }
 
-void SlopeCritic::score(mppi::CriticData & data)
+void SlopeCritic::score(CriticData & data)
 {
   if (!enabled_) {return;}
 
@@ -61,9 +61,9 @@ void SlopeCritic::score(mppi::CriticData & data)
   }
 }
 
-}  // namespace our_mppi_critics
+}  // namespace mppi::critics
 
 #include <pluginlib/class_list_macros.hpp>
 PLUGINLIB_EXPORT_CLASS(
-  our_mppi_critics::SlopeCritic,
+  mppi::critics::SlopeCritic,
   mppi::critics::CriticFunction)

@@ -6,7 +6,7 @@
 #include "sensor_msgs/msg/imu.hpp"
 #include "rclcpp/rclcpp.hpp"
 
-namespace our_mppi_critics
+namespace mppi::critics
 {
 
 class SlopeCritic : public mppi::critics::CriticFunction
@@ -14,7 +14,7 @@ class SlopeCritic : public mppi::critics::CriticFunction
 public:
   SlopeCritic() = default;
   void initialize() override;
-  void score(mppi::CriticData & data) override;
+  void score(CriticData & data) override;
 
 private:
   unsigned int power_{1u};

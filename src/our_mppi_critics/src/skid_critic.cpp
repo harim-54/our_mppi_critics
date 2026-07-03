@@ -3,7 +3,7 @@
 #include "xtensor/xarray.hpp"
 #include "xtensor/xmath.hpp"
 
-namespace our_mppi_critics
+namespace mppi::critics
 {
 
 void SkidCritic::initialize()
@@ -21,7 +21,7 @@ void SkidCritic::initialize()
   RCLCPP_INFO(logger_, "SkidCritic instantiated with %d power and %f weight", power_, weight_);
 }
 
-void SkidCritic::score(mppi::CriticData & data)
+void SkidCritic::score(CriticData & data)
 {
   if (!enabled_) {return;}
 
@@ -49,9 +49,10 @@ void SkidCritic::score(mppi::CriticData & data)
   }
 }
 
-}  // namespace our_mppi_critics
+
+}  // namespace mppi::critics
 
 #include <pluginlib/class_list_macros.hpp>
 PLUGINLIB_EXPORT_CLASS(
-  our_mppi_critics::SkidCritic,
+  mppi::critics::SkidCritic,
   mppi::critics::CriticFunction)

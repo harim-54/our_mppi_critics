@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target our_mppi_critics[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/skid_critic.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/our_mppi_critics.dir/src/slope_critic.cpp.o[0m

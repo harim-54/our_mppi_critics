@@ -4,7 +4,7 @@
 #include <string>
 #include "nav2_mppi_controller/critic_function.hpp"
 
-namespace our_mppi_critics
+namespace mppi::critics
 {
 
 class SkidCritic : public mppi::critics::CriticFunction
